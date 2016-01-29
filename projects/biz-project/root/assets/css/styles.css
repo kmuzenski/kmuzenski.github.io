@@ -1,0 +1,54 @@
+body {
+	background-color:#24D1C6;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color:white;
+}
+
+h3 {
+	color:white;
+}
+
+a {
+	color:white;
+}
+
+p {
+	color:white;
+}
+
+@font-face {
+	font-family:animals;
+	src: url(../fonts/animals.ttf);
+}
+
+
+h4 {
+	font-family:animals;
+	font-size: 56px;
+}
+
+.logo {
+	width: 100px;
+	height:auto;
+}
+
+#logo {
+	width:100px;
+	height:auto;
+}
+
+#bathroom {
+	width:100px
+	height:auto; 
+}
+
+.table-bordered {
+	color:white;
+}
+
