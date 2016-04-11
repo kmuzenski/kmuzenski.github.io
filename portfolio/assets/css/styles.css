@@ -10,5 +10,36 @@ html, body {
    border-color: transparent;
 }
 
-.navbar li { color: #000 }
+.navbar li { 
+	color: #000 
+}
+
+
+
+@font-face {
+	font-family:bellerose;
+	src: url(../fonts/Bellerose.ttf);
+}
+
+
+h1 {
+	font-family:bellerose;
+	font-size: 64px;
+}
+
+h2 {
+	font-family:bellerose;
+	font-size: 46px;
+}
+
+h4 {
+	font-family:bellerose;
+	font-size: 30px;
+}
+
+a {
+	font-family:bellerose;
+	font-size: 20px;
+}
+
 

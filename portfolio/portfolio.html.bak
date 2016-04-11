@@ -17,11 +17,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+</head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
       	
@@ -62,31 +58,15 @@
 
 <center>
 <h1><u>Featured Projects</u></h1>
-<br><br><br>
-
-<h2>Ecommerce Website</h2>
-<p>My ecommerce website project uses HTML, CSS, PHP/MySql. <br>
-  Responsive design and SEO tags give the webiste a very user friendly expereince. <br>
-<a href="http://ec2-52-32-48-99.us-west-2.compute.amazonaws.com/ecommerce-/" target="_blank">Visit Website</a></p> 
-<br><br>
-
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/ecommss.png" alt="ecommSS" title="ecommSS" id="wows0_0"/></li>
-		<li><img src="data0/images/3.png" alt="3" title="3" id="wows0_1"/></li>
-		<li><a href="http://wowslider.com/vi"><img src="data0/images/4.png" alt="image slider" title="4" id="wows0_2"/></a></li>
-		<li><img src="data0/images/5.png" alt="5" title="5" id="wows0_3"/></li>
-	</ul></div>
-<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7.1m</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
 <br><br><br><br>
 
-
+<div id="cp_widget_b79b2f36-c634-4cc9-84cc-9cca8348d3d5">...</div><script type="text/javascript">
+var cpo = []; cpo["_object"] ="cp_widget_b79b2f36-c634-4cc9-84cc-9cca8348d3d5"; cpo["_fid"] = "A0FA-Z9en-XM";
+var _cpmp = _cpmp || []; _cpmp.push(cpo);
+(function() { var cp = document.createElement("script"); cp.type = "text/javascript";
+cp.async = true; cp.src = "//www.cincopa.com/media-platform/runtime/libasync.js";
+var c = document.getElementsByTagName("script")[0];
+c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a href='http://www.cincopa.com/video-hosting'>Video Hosting</a> for Business solution.<span>portfolio</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1279</span><span>height</span><span> 739</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1204</span><span>height</span><span> 590</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 1208</span><span>height</span><span> 593</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 579</span><span>height</span><span> 716</span><span>originaldate</span><span> 1/1/0001 6:00:00 AM</span><span>width</span><span> 579</span><span>height</span><span> 716</span></noscript>
 
 
 
