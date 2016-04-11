@@ -1,13 +1,10 @@
 $(document).ready(function() {
-	$("button").click(function(){
-		$("p").slideToggle();
 
-
-
-	});
-
+Blog();
 
 });
+
+var Blog = function() {
 
 $.getJSON('assets/js/blogging.json',function(data){
 	$(data.entries).each(function(index,value){
@@ -16,11 +13,15 @@ $.getJSON('assets/js/blogging.json',function(data){
 		p += '<div class="blog-div">' + '<p class="blogPosts">' + value.text + '</p>' + '</div>' + '<hr class ="blog-hr">';
 
 		posts.push(p);
-
+		console.log(p);
+		document.write(p);
 
 
 	});
 
-requestPage(posts,1);
 
 });
+
+
+
+}
