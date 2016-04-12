@@ -1,0 +1,8 @@
+
+{
+	"posts" : [
+	{"date":"April 8th, 2016", "titleName":"Kitties", "blogPost":"I love kitties. I like striped kitties and spotted kitties and plain kitties too. I like small kitties and fat kitties and fluffy kitties too."},
+	{"date":"April 9th, 2016", "titleName": "The worst", "blogPost":"Its the worst without you..."},
+	{"date":"April 10th, 2016", "titleName":"Band Camp", "blogPost":"This one time at band camps...."}
+	]
+}
