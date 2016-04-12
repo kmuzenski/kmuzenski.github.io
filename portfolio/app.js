@@ -12,7 +12,7 @@ function request() {
             console.log(value.titleName);
             console.log(value.date);
             console.log(value.blogPost)
-            $('#blog').append('<div class="col-lg-12"><p class="titleName">' + value.titleName + '</p><p class="date">' + value.date + '</p><p class="blogPost">' + value.blogPost + '</p><hr class="featurette-divider"></div>');
+            $('#blog').append('<div class="col-md-12"><table id="blogSize"><tr><th><p class="titleName">' + value.titleName + '</p></th></tr><tr><td><p class="date">' + value.date + '</p><p class="blogPost">' + value.blogPost + '</p></td></tr></div></table><br>');
           });
           $('#blog').append('</div>');
         }

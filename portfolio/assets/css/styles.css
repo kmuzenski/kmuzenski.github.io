@@ -14,6 +14,11 @@ html, body {
 	color: #000 
 }
 
+#blogSize {
+	width: 500px;
+	height: 500px;
+}
+
 
 
 @font-face {
@@ -42,4 +47,13 @@ a {
 	font-size: 20px;
 }
 
+p {
+	font-family:bellerose;
+	font-size: 20px;
+}
+
+
+table,tr,th,td { 
+	border: 1px #ffffff solid; text-align:left;
+}
 
