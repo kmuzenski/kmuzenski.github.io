@@ -14,10 +14,7 @@ html, body {
 	color: #000 
 }
 
-#blogSize {
-	width: 500px;
-	height: 500px;
-}
+
 
 
 
@@ -53,7 +50,13 @@ p {
 }
 
 
-table,tr,th,td { 
-	border: 1px #ffffff solid; text-align:left;
+
+#blogSize {
+	
+	border-radius: 25px;
+    border: 2px solid #ffffff;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
 }
 
