@@ -69,3 +69,11 @@ p {
   text-decoration: none;
   color: #ffffff;
 }
+
+#blog {
+	border-radius: 25px;
+	border: 2px solid #ffffff;
+	padding: 20px;
+	width: 500px;
+	height: 250px;
+}
