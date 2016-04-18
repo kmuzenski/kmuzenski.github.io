@@ -18,10 +18,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top">
       	
@@ -71,20 +67,10 @@
 <a href="https://github.com/kmuzenski/kmuzenski.github.io/tree/master/portfolio" target="_blank">Visit Github Repository</a></p>
 <br><br>
 
-	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
-	<div class="ws_images"><ul>
-		<li><img src="data0/images/ecommss.png" alt="ecommSS" title="ecommSS" id="wows0_0"/></li>
-		<li><img src="data0/images/3.png" alt="3" title="3" id="wows0_1"/></li>
-		<li><a href="http://wowslider.com/vi"><img src="data0/images/4.png" alt="image slider" title="4" id="wows0_2"/></a></li>
-		<li><img src="data0/images/5.png" alt="5" title="5" id="wows0_3"/></li>
-	</ul></div>
-<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7.1m</div>
-	<div class="ws_shadow"></div>
-	</div>	
-	<script type="text/javascript" src="engine0/wowslider.js"></script>
-	<script type="text/javascript" src="engine0/script.js"></script>
-	<!-- End WOWSlider.com BODY section -->
+<img src="assets/images/ecommSS.png" name="mypic" border=0 height="100" title="project screenshot">
+<a href="JavaScript:slideshowBack()">Back</a>
+<a href="Javascript:slideshowUp()">Next</a>
+	
 <br><br><br><br>
 
 
@@ -111,5 +97,36 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 <script src="app.js"></script>
+
+<script>
+var num = 1;
+img1 = new Image();
+img1.src = "assets/images/4.png";
+img2 = new Image();
+img2.src = "assets/images/3.png";
+img3 = new Image();
+img3.src = "assets/images/mob.png";
+
+text1 = "screenshot";
+text2 = "screenshot";
+text3 = "screenshot";
+
+function slideshowUp() {
+	num = num+1;
+	if (num == 5){
+		num = 1;
+	}
+	document.mypic.src=eval("img" + num + ".src");
+}
+
+function slideshowBack() {
+	num = num -1;
+	if (num == 0) {
+		num = 4;
+	}
+	document.mypic.src=eval("img" + num + ".src");
+
+}
+</script>
 </body>
 </html>

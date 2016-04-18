@@ -61,26 +61,29 @@
 </center>	
 	<br><br><br><br>
 
-<div class="jumbotron">
-	<img src="assets/images/ban.png">
-</div>
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<button id="clicker"><img src="assets/images/lm.png" alt="learn more"></button>
+
+				<button id="clicker" class="btn">Learn More</button>
 				<div id="learnMore">
 					<br><br><br>
-				<img src="assets/images/compOne.png" alt="skills" width="500px">
-			</div>
+					<div id="design">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-6">
+				<img src="assets/images/design.png" alt="design" width="400px">
 			</div>
 
+				<div class="col-md-6">
+				<img src="assets/images/function.png" alt="function" width="400px">
+			</div>
+		</div>
+	</div>
+</div>
+</div>
 			
 
-	
-</div>
-</div>
+
 
 
 
@@ -108,11 +111,13 @@
 <script>
 $(document).ready(function(){
 	$("#learnMore").hide();
+	$("#design").hide();
 	
 
 	$("#clicker").on("click", function(){
 		
 		$("#learnMore").toggle();
+		$("#design").toggle();
 	});
 });
 
