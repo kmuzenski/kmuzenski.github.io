@@ -44,6 +44,12 @@ a {
 	font-size: 20px;
 }
 
+a.disabled {
+	text-decoration: none;
+	color: black;
+	cursor: default;
+}
+
 p {
 	font-family:bellerose;
 	font-size: 20px;
